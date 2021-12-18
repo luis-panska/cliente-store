@@ -1,0 +1,70 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  height: 60%;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  -webkit-text-fill-color: rgb(117, 148, 68);
+  -webkit-text-stroke: 2px;
+}
+p.parrafo {
+  color: rgb(255, 253, 253);
+  text-align: center;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#titulo {
+  color: black;
+  text-align: center;
+  font-size: 3em;
+  font-family: "rockwell";
+}
+#titulo2 {
+  color: beige;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: "rockwell";
+}
+.parallax {
+  background-image: fixed white no repeat;
+  background-size: cover;
+}
+#seccion01 {
+  background-image: url("../../utils/images/tecnologia/arriba.png");
+  color: black;
+  font-size: 3em;
+  font-family: "Candara";
+}
+#seccion02 {
+  background-color: #0193a5;
+  color: beige;
+}
+#seccion03 {
+  background-color: #0271b4;
+  color: beige;
+}
+#seccion04 {
+  background-color: #004a59;
+  color: beige;
+}
+#seccion05 {
+  background-color: #c73618;
+  color: beige;
+}
+#seccion06 {
+  background-color: #f16744;
+  color: beige;
+}
+#seccion07 {
+  background-color: #f6a278;
+  color: beige;
+}

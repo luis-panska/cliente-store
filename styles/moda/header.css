@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+h1 {
+    font-size: 8em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 2500;
+    margin: 28px 0;
+}
+
+.img-title {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+/*ESTILOS PARA COLOCAR EN NUESTRO MENU*/
+header{
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica;
+    background-color:lightgray;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#menu li>a{
+    color: rgb(31, 1, 4);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+    font-size: 19px;
+}
+
+#menu li>a:hover{
+    background-color:lightgoldenrodyellow;
+}
+#menu>li{
+    margin-right: 25px;
+    text-align: center;
+}

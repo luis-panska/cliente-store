@@ -1,0 +1,28 @@
+/*Creado por : Rosalia Mondragon - productos.html
+/*AQUI LE DAMOS DIMENSION TOTAL DE ANCHO Y ALTURA */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+/*QUI LE INDICAMOS AL HTML QUE LA SECTION TIENE DE DIMENSIONES TODA LA LONGITUD DE LA PANTALLA*/
+section {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: rgb(150, 155, 224);
+}
+/*ESTILOS PARA NUESTRO EFECTO PARALLAX: FIXED = DEJA ESTATICA LA IMAGEN DE FONDO - 
+NO-REPEAT = EVITA REPETIR LA IMAGEN EN TODA LA PANTALLA(IMAGENES PEQUEÑAS)
+50% 50% PERMITE CENTRAR LA IMAGEN DE FONDO*/
+/*COVER = FONDO TIPO PORTADA*/
+.parallax {
+  background: fixed bisque no-repeat 50% 50%;
+  background-size: cover;
+  color: black;
+}
+/*AQUI ESTOY LLAMANDO LAS IMAGENES DE FONDO PARA CADA SECCION*/
+#seccion01 {
+  background-image: url("../../utils/images/moda/ojochompa.jpeg");
+}
